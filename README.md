@@ -1,4 +1,4 @@
-# GPT2-Review
+# GPT2-Review + SAE
 
 
 The goal of this project is to gain a deep intuition for the transformers architecture and brush off any rust I might have had with pytorch.
@@ -8,3 +8,8 @@ I am using Neel Nanda's collab template in order to do this. I found this when r
 Here are the resources I used to reason through this task:
 * https://arxiv.org/abs/1706.03762
 * https://jalammar.github.io/illustrated-gpt2/
+
+
+After completing this I feel like I not only have a better intiution when it comes to attention but I also have more familiarity with using einops notation for tensor operations. 
+
+In addition, the last section about sampling techniques was helpful as it shows just how potentially unreliable and dependent on the last token the autoregressive nature of this model is.
